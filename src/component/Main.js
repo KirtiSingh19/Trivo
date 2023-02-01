@@ -3,7 +3,7 @@ export default function Main(){
 
     const imagestyles={
         width:"100%",
-        height:"530px",
+        height:"640px",
         position:"relative",
         backgroundSize: "cover",
         backgroundPosition: "center",

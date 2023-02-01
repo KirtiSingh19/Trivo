@@ -39,12 +39,13 @@ export default function Card(props)
                 <div className=" card-stats">
                 <div className="flex ">
                 <img src={props.iconimg} className="h-7"/>
+                <span className="text-xl">{props.name}</span>
                 <span><Star isFilled={contact.bool} click={changeimg}/></span> 
                 <span><Star isFilled={contact1.bool} click={changeimg1}/></span>
                 <span><Star isFilled={contact2.bool} click={changeimg2}/></span>
                 <span className="text-xl text-red-600 font-bold">{props.rating}</span>  
                  </div>
-                 <span className="text-xl">{props.name}</span>
+                
                  <h3>{props.content}</h3>
                  </div>
                  </div>
