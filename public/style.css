@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}
+ul>li{
+    list-style: none;
+}
+.stroke{
+    -webkit-text-fill-color:white;
+    -webkit-text-stroke-width: 1.3px;
+    animation:"text 8s steps(30) infinite",
+}
+span{
+color:rgb(6, 6, 80);
+} 
+
+.headd{
+    animation:text 8s steps(30) infinite;
+}
+@keyframes text{
+    0%
+    {
+        width: 0ch;
+    }
+    30%{
+        width: 19.4ch;
+    }
+} 
+.h{
+    color: rgb(6, 6, 80);
+    text-align:left;
+    font-size:20px;
+}
+.h:hover{
+    background:rgb(236, 31, 3);
+    color:white;
+    border-radius: 13px;
+    padding: 8px;
+    font-size: 18px;
+    margin-left: 2px;
+}
+
+.all{
+    display: inline-flex;
+    padding:4px;
+    margin:15px;
+}
+.card{
+    position: relative;
+}
